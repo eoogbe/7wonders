@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the current player 1`] = `
+<li
+  className="WonderPanelWonder"
+>
+  <div
+    className="WonderPanelWonder-currentPlayer"
+  >
+    player
+  </div>
+  <div
+    className="WonderPanelWonder-name"
+    onClick={[Function]}
+  >
+    Pyramids of Giza (A)
+  </div>
+</li>
+`;
+
+exports[`renders without crashing 1`] = `
+<li
+  className="WonderPanelWonder"
+>
+  <div
+    className="WonderPanelWonder-name"
+    onClick={[Function]}
+  >
+    Pyramids of Giza (A)
+  </div>
+</li>
+`;

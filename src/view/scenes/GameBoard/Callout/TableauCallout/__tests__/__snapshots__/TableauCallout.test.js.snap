@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with chained structures 1`] = `
+<section>
+  <h2
+    className="Callout-title"
+  >
+    Apothecary
+  </h2>
+  <p
+    className="Callout-paragraph"
+  >
+    Type: 
+    Science
+  </p>
+  <section
+    className="CalloutSection"
+  >
+    <h3
+      className="CalloutSection-heading"
+    >
+      This card awards
+      :
+    </h3>
+    <ul
+      className="CalloutSection-list"
+    >
+      <li>
+        Compass
+      </li>
+    </ul>
+  </section>
+  <section
+    className="CalloutSection"
+  >
+    <h3
+      className="CalloutSection-heading"
+    >
+      Having this card allows the player to build for free
+      :
+    </h3>
+    <ul
+      className="CalloutSection-list"
+    >
+      <li>
+        Dispensary
+      </li>
+      <li>
+        Stables
+      </li>
+    </ul>
+  </section>
+</section>
+`;
+
+exports[`renders without crashing 1`] = `
+<section>
+  <h2
+    className="Callout-title"
+  >
+    Lumber yard
+  </h2>
+  <p
+    className="Callout-paragraph"
+  >
+    Type: 
+    Raw material
+  </p>
+  <section
+    className="CalloutSection"
+  >
+    <h3
+      className="CalloutSection-heading"
+    >
+      This card awards
+      :
+    </h3>
+    <ul
+      className="CalloutSection-list"
+    >
+      <li>
+        1 Wood
+      </li>
+    </ul>
+  </section>
+</section>
+`;

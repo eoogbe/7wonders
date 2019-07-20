@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders when building structure that costs for free 1`] = `
+<ul
+  className="ActionPanel"
+>
+  <li>
+    <button
+      className="primary-button"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Build FREE structure
+    </button>
+  </li>
+  <li>
+    <button
+      className="primary-button"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Build structure for 1 coin
+    </button>
+  </li>
+  <li>
+    <button
+      className="primary-button"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      Build wonder
+    </button>
+  </li>
+  <li>
+    <button
+      className="primary-button"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Add money
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`renders when building unaffordable structure for free 1`] = `
+<ul
+  className="ActionPanel"
+>
+  <li>
+    <button
+      className="primary-button"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Build FREE structure
+    </button>
+  </li>
+  <li>
+    <button
+      className="primary-button"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      Build wonder
+    </button>
+  </li>
+  <li>
+    <button
+      className="primary-button"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Add money
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`renders when can add money 1`] = `
+<ul
+  className="ActionPanel"
+>
+  <li>
+    <button
+      className="primary-button"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      Build structure
+    </button>
+  </li>
+  <li>
+    <button
+      className="primary-button"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      Build wonder
+    </button>
+  </li>
+  <li>
+    <button
+      className="primary-button"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Add money
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`renders when can build structure 1`] = `
+<ul
+  className="ActionPanel"
+>
+  <li>
+    <button
+      className="primary-button"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Build structure
+    </button>
+  </li>
+  <li>
+    <button
+      className="primary-button"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      Build wonder
+    </button>
+  </li>
+  <li>
+    <button
+      className="primary-button"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Add money
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`renders when can build wonder 1`] = `
+<ul
+  className="ActionPanel"
+>
+  <li>
+    <button
+      className="primary-button"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      Build structure
+    </button>
+  </li>
+  <li>
+    <button
+      className="primary-button"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Build wonder
+    </button>
+  </li>
+  <li>
+    <button
+      className="primary-button"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Add money
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`renders without crashing 1`] = `
+<ul
+  className="ActionPanel"
+>
+  <li>
+    <button
+      className="primary-button"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      Build structure
+    </button>
+  </li>
+  <li>
+    <button
+      className="primary-button"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      Build wonder
+    </button>
+  </li>
+  <li>
+    <button
+      className="primary-button"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      Add money
+    </button>
+  </li>
+</ul>
+`;

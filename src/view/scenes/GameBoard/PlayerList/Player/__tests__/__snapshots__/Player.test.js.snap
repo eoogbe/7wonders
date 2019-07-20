@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<li
+  className="Player"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onTouchEnd={[Function]}
+  onTouchStart={[Function]}
+>
+  <div
+    className="Player-name"
+  >
+    Pyramids of Giza
+  </div>
+  <ol
+    className="PlayerWonder"
+  >
+    <li
+      className="PlayerWonderStage"
+      style={Object {}}
+    >
+      <ul>
+        <li>
+          3 points
+        </li>
+      </ul>
+    </li>
+    <li
+      className="PlayerWonderStage"
+      style={
+        Object {
+          "backgroundColor": "rgba(93, 64, 55, 0.5)",
+        }
+      }
+    >
+      <ul>
+        <li>
+          5 points
+        </li>
+      </ul>
+    </li>
+    <li
+      className="PlayerWonderStage"
+      style={
+        Object {
+          "backgroundColor": "rgba(93, 64, 55, 0.5)",
+        }
+      }
+    >
+      <ul>
+        <li>
+          7 points
+        </li>
+      </ul>
+    </li>
+  </ol>
+</li>
+`;

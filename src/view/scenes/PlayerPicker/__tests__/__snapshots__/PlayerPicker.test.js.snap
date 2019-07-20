@@ -1,0 +1,265 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<section
+  className="PlayerPicker"
+>
+  <h1
+    className="PlayerPicker-title"
+  >
+    Choose the number of players:
+  </h1>
+  <div
+    className="PlayerPicker-picker"
+  >
+    <button
+      className="PlayerPicker-arrow"
+      disabled={false}
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "rgba(93, 64, 55)",
+        }
+      }
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+        />
+      </svg>
+    </button>
+    <div
+      className="PlayerPicker-playerCount"
+    >
+      4
+    </div>
+    <button
+      className="PlayerPicker-arrow"
+      disabled={false}
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "rgba(93, 64, 55)",
+        }
+      }
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"
+        />
+      </svg>
+    </button>
+    <button
+      className="PlayerPicker-nextButton primary-button"
+      onClick={[Function]}
+      type="button"
+    >
+      Next
+    </button>
+  </div>
+</section>
+`;
+
+exports[`when max count renders a disabled right arrow 1`] = `
+<section
+  className="PlayerPicker"
+>
+  <h1
+    className="PlayerPicker-title"
+  >
+    Choose the number of players:
+  </h1>
+  <div
+    className="PlayerPicker-picker"
+  >
+    <button
+      className="PlayerPicker-arrow"
+      disabled={false}
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "rgba(93, 64, 55)",
+        }
+      }
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+        />
+      </svg>
+    </button>
+    <div
+      className="PlayerPicker-playerCount"
+    >
+      7
+    </div>
+    <button
+      className="PlayerPicker-arrow"
+      disabled={true}
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "rgba(93, 64, 55, 0.5)",
+        }
+      }
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"
+        />
+      </svg>
+    </button>
+    <button
+      className="PlayerPicker-nextButton primary-button"
+      onClick={[Function]}
+      type="button"
+    >
+      Next
+    </button>
+  </div>
+</section>
+`;
+
+exports[`when min count renders a disabled left arrow 1`] = `
+<section
+  className="PlayerPicker"
+>
+  <h1
+    className="PlayerPicker-title"
+  >
+    Choose the number of players:
+  </h1>
+  <div
+    className="PlayerPicker-picker"
+  >
+    <button
+      className="PlayerPicker-arrow"
+      disabled={true}
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "rgba(93, 64, 55, 0.5)",
+        }
+      }
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+        />
+      </svg>
+    </button>
+    <div
+      className="PlayerPicker-playerCount"
+    >
+      3
+    </div>
+    <button
+      className="PlayerPicker-arrow"
+      disabled={false}
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "rgba(93, 64, 55)",
+        }
+      }
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"
+        />
+      </svg>
+    </button>
+    <button
+      className="PlayerPicker-nextButton primary-button"
+      onClick={[Function]}
+      type="button"
+    >
+      Next
+    </button>
+  </div>
+</section>
+`;

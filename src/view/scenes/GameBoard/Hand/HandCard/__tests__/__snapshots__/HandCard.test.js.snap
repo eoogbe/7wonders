@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders when cannot afford payment 1`] = `
+<li
+  className="HandCard"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onTouchEnd={[Function]}
+  onTouchStart={[Function]}
+  style={
+    Object {
+      "backgroundColor": "rgb(33,150,243)",
+    }
+  }
+>
+  <ul
+    className="HandCard-cost"
+  >
+    <li
+      className="HandCard-costItem"
+    >
+      Stone
+    </li>
+  </ul>
+  <ul>
+    <li>
+      3 points
+    </li>
+  </ul>
+  <div
+    className="HandCard-footer"
+  >
+    <svg
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8 0-1.85.63-3.55 1.69-4.9L16.9 18.31C15.55 19.37 13.85 20 12 20zm6.31-3.1L7.1 5.69C8.45 4.63 10.15 4 12 4c4.42 0 8 3.58 8 8 0 1.85-.63 3.55-1.69 4.9z"
+      />
+    </svg>
+    <div
+      className="HandCard-name"
+    >
+      Baths
+    </div>
+  </div>
+</li>
+`;
+
+exports[`renders when selected 1`] = `
+<li
+  className="HandCard selected"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onTouchEnd={[Function]}
+  onTouchStart={[Function]}
+  style={
+    Object {
+      "backgroundColor": "rgb(141,110,99)",
+    }
+  }
+>
+  <ul>
+    <li>
+      Wood
+    </li>
+  </ul>
+  <div
+    className="HandCard-footer"
+  >
+    <svg
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+      />
+    </svg>
+    <div
+      className="HandCard-name"
+    >
+      Lumber yard
+    </div>
+  </div>
+</li>
+`;
+
+exports[`renders with coin payment 1`] = `
+<li
+  className="HandCard"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onTouchEnd={[Function]}
+  onTouchStart={[Function]}
+  style={
+    Object {
+      "backgroundColor": "rgb(33,150,243)",
+    }
+  }
+>
+  <ul
+    className="HandCard-cost"
+  >
+    <li
+      className="HandCard-costItem"
+    >
+      Stone
+    </li>
+  </ul>
+  <ul>
+    <li>
+      3 points
+    </li>
+  </ul>
+  <div
+    className="HandCard-footer"
+  >
+    <div>
+      -
+      2
+    </div>
+    <div
+      className="HandCard-name"
+    >
+      Baths
+    </div>
+  </div>
+</li>
+`;
+
+exports[`renders with cost 1`] = `
+<li
+  className="HandCard"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onTouchEnd={[Function]}
+  onTouchStart={[Function]}
+  style={
+    Object {
+      "backgroundColor": "rgb(33,150,243)",
+    }
+  }
+>
+  <ul
+    className="HandCard-cost"
+  >
+    <li
+      className="HandCard-costItem"
+    >
+      Stone
+    </li>
+  </ul>
+  <ul>
+    <li>
+      3 points
+    </li>
+  </ul>
+  <div
+    className="HandCard-footer"
+  >
+    <svg
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+      />
+    </svg>
+    <div
+      className="HandCard-name"
+    >
+      Baths
+    </div>
+  </div>
+</li>
+`;
+
+exports[`renders without crashing 1`] = `
+<li
+  className="HandCard"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onTouchEnd={[Function]}
+  onTouchStart={[Function]}
+  style={
+    Object {
+      "backgroundColor": "rgb(141,110,99)",
+    }
+  }
+>
+  <ul>
+    <li>
+      Wood
+    </li>
+  </ul>
+  <div
+    className="HandCard-footer"
+  >
+    <svg
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+      />
+    </svg>
+    <div
+      className="HandCard-name"
+    >
+      Lumber yard
+    </div>
+  </div>
+</li>
+`;

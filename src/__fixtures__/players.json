@@ -1,0 +1,41 @@
+{
+  "PLAYER1": {
+    "id": "PLAYER1",
+    "wonder": "PYRAMIDS_OF_GIZA",
+    "hand": ["EAST_TRADING_POST", "APOTHECARY", "MINE"],
+    "tableau": ["STOCKADE", "TAVERN", "GLASSWORKS"],
+    "completedWonderStageCount": 1,
+    "wonderSide": "A",
+    "money": 3,
+    "militaryPoints": [],
+    "structurePayments": [],
+    "wonderPayments": [],
+    "wonderAbilities": []
+  },
+  "PLAYER2": {
+    "id": "PLAYER2",
+    "wonder": "COLOSSUS_OF_RHODES",
+    "hand": ["PRESS", "TIMBER_YARD", "TREE_FARM"],
+    "tableau": ["BATHS", "CLAY_PIT", "ALTAR"],
+    "completedWonderStageCount": 2,
+    "wonderSide": "A",
+    "money": 3,
+    "militaryPoints": [],
+    "structurePayments": [],
+    "wonderPayments": [],
+    "wonderAbilities": []
+  },
+  "PLAYER3": {
+    "id": "PLAYER3",
+    "wonder": "TEMPLE_OF_ARTEMIS_IN_EPHESUS",
+    "hand": ["LUMBER_YARD", "GUARD_TOWER", "EXCAVATION"],
+    "tableau": ["BARRACKS", "CLAY_POOL"],
+    "completedWonderStageCount": 3,
+    "wonderSide": "A",
+    "money": 3,
+    "militaryPoints": [],
+    "structurePayments": [],
+    "wonderPayments": [],
+    "wonderAbilities": []
+  }
+}

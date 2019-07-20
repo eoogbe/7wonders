@@ -1,0 +1,452 @@
+{
+  "COLOSSUS_OF_RHODES": {
+    "id": "COLOSSUS_OF_RHODES",
+    "name": "Colossus of Rhodes",
+    "initialResource": "COLOSSUS_OF_RHODES_INITIAL",
+    "A": [
+      {
+        "points": 3,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Wood", "Wood"]
+      },
+      {
+        "points": 0,
+        "money": 0,
+        "shields": 2,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Clay", "Clay", "Clay"]
+      },
+      {
+        "points": 7,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Ore", "Ore", "Ore", "Ore"]
+      }
+    ],
+    "B": [
+      {
+        "points": 3,
+        "money": 3,
+        "shields": 1,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Stone", "Stone", "Stone"]
+      },
+      {
+        "points": 4,
+        "money": 4,
+        "shields": 1,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Ore", "Ore", "Ore", "Ore"]
+      }
+    ]
+  },
+  "HANGING_GARDEN_OF_BABYLON": {
+    "id": "HANGING_GARDEN_OF_BABYLON",
+    "name": "Hanging garden of Babylon",
+    "initialResource": "HANGING_GARDEN_OF_BABYLON_INITIAL",
+    "A": [
+      {
+        "points": 3,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Clay", "Clay"]
+      },
+      {
+        "points": 0,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "special": "EXTRA_SCIENCE",
+        "cost": ["Wood", "Wood", "Wood"]
+      },
+      {
+        "points": 7,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Clay", "Clay", "Clay", "Clay"]
+      }
+    ],
+    "B": [
+      {
+        "points": 3,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Clay", "Loom"]
+      },
+      {
+        "points": 0,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "special": "PLAY_LAST_CARD",
+        "cost": ["Wood", "Wood", "Glass"]
+      },
+      {
+        "points": 0,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "special": "EXTRA_SCIENCE",
+        "cost": ["Clay", "Clay", "Clay", "Papyrus"]
+      }
+    ]
+  },
+  "LIGHTHOUSE_OF_ALEXANDRIA": {
+    "id": "LIGHTHOUSE_OF_ALEXANDRIA",
+    "name": "Lighthouse of Alexandria",
+    "initialResource": "LIGHTHOUSE_OF_ALEXANDRIA_INITIAL",
+    "A": [
+      {
+        "points": 3,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Stone", "Stone"]
+      },
+      {
+        "points": 0,
+        "money": 0,
+        "shields": 0,
+        "resources": [{ "alternatives": ["Clay", "Ore", "Stone", "Wood"] }],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Ore", "Ore"]
+      },
+      {
+        "points": 7,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Glass", "Glass"]
+      }
+    ],
+    "B": [
+      {
+        "points": 0,
+        "money": 0,
+        "shields": 0,
+        "resources": [{ "alternatives": ["Clay", "Ore", "Stone", "Wood"] }],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Clay", "Clay"]
+      },
+      {
+        "points": 0,
+        "money": 0,
+        "shields": 0,
+        "resources": [{ "alternatives": ["Glass", "Loom", "Papyrus"] }],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Wood", "Wood"]
+      },
+      {
+        "points": 7,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Stone", "Stone", "Stone"]
+      }
+    ]
+  },
+  "MAUSOLEUM_OF_HALICARNASSUS": {
+    "id": "MAUSOLEUM_OF_HALICARNASSUS",
+    "name": "Mausoleum of Halicarnassus",
+    "initialResource": "MAUSOLEUM_OF_HALICARNASSUS_INITIAL",
+    "A": [
+      {
+        "points": 3,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Clay", "Clay"]
+      },
+      {
+        "points": 0,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "special": "BUILD_DISCARDED",
+        "cost": ["Ore", "Ore", "Ore"]
+      },
+      {
+        "points": 7,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Loom", "Loom"]
+      }
+    ],
+    "B": [
+      {
+        "points": 2,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "special": "BUILD_DISCARDED",
+        "cost": ["Ore", "Ore"]
+      },
+      {
+        "points": 1,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "special": "BUILD_DISCARDED",
+        "cost": ["Clay", "Clay", "Clay"]
+      },
+      {
+        "points": 0,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "special": "BUILD_DISCARDED",
+        "cost": ["Loom", "Glass", "Papyrus"]
+      }
+    ]
+  },
+  "PYRAMIDS_OF_GIZA": {
+    "id": "PYRAMIDS_OF_GIZA",
+    "name": "Pyramids of Giza",
+    "initialResource": "PYRAMIDS_OF_GIZA_INITIAL",
+    "A": [
+      {
+        "points": 3,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Stone", "Stone"]
+      },
+      {
+        "points": 5,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Wood", "Wood", "Wood"]
+      },
+      {
+        "points": 7,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Stone", "Stone", "Stone", "Stone"]
+      }
+    ],
+    "B": [
+      {
+        "points": 3,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Wood", "Wood"]
+      },
+      {
+        "points": 5,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Stone", "Stone", "Stone"]
+      },
+      {
+        "points": 5,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Clay", "Clay", "Clay"]
+      },
+      {
+        "points": 7,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Stone", "Stone", "Stone", "Stone"]
+      }
+    ]
+  },
+  "STATUE_OF_ZEUS_IN_OLYMPIA": {
+    "id": "STATUE_OF_ZEUS_IN_OLYMPIA",
+    "name": "Statue of Zeus in Olympia",
+    "initialResource": "STATUE_OF_ZEUS_IN_OLYMPIA_INITIAL",
+    "A": [
+      {
+        "points": 3,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Wood", "Wood"]
+      },
+      {
+        "points": 0,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "special": "BUILD_FREE",
+        "cost": ["Stone", "Stone"]
+      },
+      {
+        "points": 7,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Ore", "Ore"]
+      }
+    ],
+    "B": [
+      {
+        "points": 0,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": ["Clay", "Ore", "Stone", "Wood"],
+        "rightTradeDiscounts": ["Clay", "Ore", "Stone", "Wood"],
+        "cost": ["Wood", "Wood"]
+      },
+      {
+        "points": 5,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Stone", "Stone"]
+      },
+      {
+        "points": 0,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "special": "COPY_GUILD",
+        "cost": ["Ore", "Ore", "Loom"]
+      }
+    ]
+  },
+  "TEMPLE_OF_ARTEMIS_IN_EPHESUS": {
+    "id": "TEMPLE_OF_ARTEMIS_IN_EPHESUS",
+    "name": "Temple of Artemis in Ephesus",
+    "initialResource": "TEMPLE_OF_ARTEMIS_IN_EPHESUS_INITIAL",
+    "A": [
+      {
+        "points": 3,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Stone", "Stone"]
+      },
+      {
+        "points": 0,
+        "money": 9,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Wood", "Wood"]
+      },
+      {
+        "points": 7,
+        "money": 0,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Papyrus", "Papyrus"]
+      }
+    ],
+    "B": [
+      {
+        "points": 2,
+        "money": 4,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Stone", "Stone"]
+      },
+      {
+        "points": 3,
+        "money": 4,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Wood", "Wood"]
+      },
+      {
+        "points": 5,
+        "money": 4,
+        "shields": 0,
+        "resources": [],
+        "leftTradeDiscounts": [],
+        "rightTradeDiscounts": [],
+        "cost": ["Loom", "Glass", "Papyrus"]
+      }
+    ]
+  }
+}

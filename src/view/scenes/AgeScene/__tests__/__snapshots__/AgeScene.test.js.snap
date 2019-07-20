@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Age II 1`] = `
+<h1
+  className="AgeScene"
+  style={
+    Object {
+      "backgroundColor": "rgb(33,150,243, 0.7)",
+    }
+  }
+>
+  Age II
+</h1>
+`;
+
+exports[`renders Age III 1`] = `
+<h1
+  className="AgeScene"
+  style={
+    Object {
+      "backgroundColor": "rgb(171,71,188, 0.7)",
+    }
+  }
+>
+  Age III
+</h1>
+`;
+
+exports[`renders without crashing 1`] = `
+<h1
+  className="AgeScene"
+  style={
+    Object {
+      "backgroundColor": "rgb(141,110,99, 0.7)",
+    }
+  }
+>
+  Age I
+</h1>
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<li
+  className="WonderChooserWonderStage"
+>
+  <ul
+    className="WonderChooserWonderStage-cost"
+  >
+    <li>
+      Stone
+    </li>
+    <li>
+      Stone
+    </li>
+  </ul>
+  <ul
+    className="WonderChooserWonderStage-effectList"
+  >
+    <li>
+      3 points
+    </li>
+  </ul>
+</li>
+`;

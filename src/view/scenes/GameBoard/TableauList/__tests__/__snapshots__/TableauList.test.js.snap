@@ -1,0 +1,561 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with trade choice 1`] = `
+<div
+  className="TableauList"
+>
+  <div
+    className="Tableau"
+    style={
+      Object {
+        "borderColor": "#000",
+        "borderStyle": "solid",
+        "borderWidth": "0 1px 1px 0",
+        "width": "33.3%",
+      }
+    }
+  >
+    <ul
+      className="Tableau-cardList"
+    >
+      <li
+        className="TableauCard"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(189,189,189)",
+            "border": "1px solid rgba(93, 64, 55)",
+          }
+        }
+      >
+        <ul
+          className="TableauCard-effectList"
+        >
+          <li
+            className="TableauCard-effect"
+          >
+            Papyrus
+          </li>
+        </ul>
+      </li>
+      <li
+        className="TableauCard"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(141,110,99)",
+            "border": "1px solid rgba(93, 64, 55)",
+          }
+        }
+      >
+        <ul
+          className="TableauCard-effectList"
+        >
+          <li
+            className="TableauCard-effect"
+          >
+            Clay
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <ul
+      className="Tableau-cardList"
+    >
+      <li
+        className="TableauCard"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(239,83,80)",
+            "border": "1px solid rgba(93, 64, 55)",
+          }
+        }
+      >
+        <ul
+          className="TableauCard-effectList"
+        >
+          <li
+            className="TableauCard-effect"
+          >
+            1 shield
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <section
+    className="NeighborChooser"
+  >
+    <h2
+      className="NeighborChooser-heading"
+    >
+      Choose a neighbor to trade with:
+    </h2>
+    <ul
+      className="NeighborChooser-buttonPanel"
+    >
+      <li>
+        <button
+          className="primary-button"
+          onClick={[Function]}
+          type="button"
+        >
+          Left neighbor
+        </button>
+      </li>
+      <li>
+        <button
+          className="primary-button"
+          onClick={[Function]}
+          type="button"
+        >
+          Right neighbor
+        </button>
+      </li>
+    </ul>
+  </section>
+  <div
+    className="Tableau"
+    style={
+      Object {
+        "borderColor": "#000",
+        "borderStyle": "solid",
+        "borderWidth": "0 0 1px 1px",
+        "justifyContent": "flex-end",
+        "width": "33.3%",
+      }
+    }
+  >
+    <ul
+      className="Tableau-cardList"
+    >
+      <li
+        className="TableauCard"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(141,110,99)",
+            "border": "1px solid rgba(93, 64, 55)",
+          }
+        }
+      >
+        <ul
+          className="TableauCard-effectList"
+        >
+          <li
+            className="TableauCard-effect"
+          >
+            Ore
+          </li>
+        </ul>
+      </li>
+      <li
+        className="TableauCard"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(141,110,99)",
+            "border": "1px solid rgba(93, 64, 55)",
+          }
+        }
+      >
+        <ul
+          className="TableauCard-effectList"
+        >
+          <li
+            className="TableauCard-effect"
+          >
+            Clay / Ore
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <ul
+      className="Tableau-cardList"
+    >
+      <li
+        className="TableauCard"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(33,150,243)",
+            "border": "1px solid rgba(93, 64, 55)",
+          }
+        }
+      >
+        <ul
+          className="TableauCard-effectList"
+        >
+          <li
+            className="TableauCard-effect"
+          >
+            3 points
+          </li>
+        </ul>
+      </li>
+      <li
+        className="TableauCard"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(33,150,243)",
+            "border": "1px solid rgba(93, 64, 55)",
+          }
+        }
+      >
+        <ul
+          className="TableauCard-effectList"
+        >
+          <li
+            className="TableauCard-effect"
+          >
+            2 points
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`renders without crashing 1`] = `
+<div
+  className="TableauList"
+>
+  <div
+    className="Tableau"
+    style={
+      Object {
+        "borderColor": "#000",
+        "borderStyle": "solid",
+        "borderWidth": "0 1px 1px 0",
+        "width": "33.3%",
+      }
+    }
+  >
+    <ul
+      className="Tableau-cardList"
+    >
+      <li
+        className="TableauCard"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(189,189,189)",
+            "border": "1px solid rgba(93, 64, 55)",
+          }
+        }
+      >
+        <ul
+          className="TableauCard-effectList"
+        >
+          <li
+            className="TableauCard-effect"
+          >
+            Papyrus
+          </li>
+        </ul>
+      </li>
+      <li
+        className="TableauCard"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(141,110,99)",
+            "border": "1px solid rgba(93, 64, 55)",
+          }
+        }
+      >
+        <ul
+          className="TableauCard-effectList"
+        >
+          <li
+            className="TableauCard-effect"
+          >
+            Clay
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <ul
+      className="Tableau-cardList"
+    >
+      <li
+        className="TableauCard"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(239,83,80)",
+            "border": "1px solid rgba(93, 64, 55)",
+          }
+        }
+      >
+        <ul
+          className="TableauCard-effectList"
+        >
+          <li
+            className="TableauCard-effect"
+          >
+            1 shield
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div
+    className="Tableau"
+    style={
+      Object {
+        "borderTop": "1px solid #000",
+        "justifyContent": "center",
+        "width": "33.3%",
+      }
+    }
+  >
+    <ul
+      className="Tableau-cardList"
+    >
+      <li
+        className="TableauCard"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(141,110,99)",
+            "border": "1px solid rgba(93, 64, 55)",
+          }
+        }
+      >
+        <ul
+          className="TableauCard-effectList"
+        >
+          <li
+            className="TableauCard-effect"
+          >
+            Stone
+          </li>
+        </ul>
+      </li>
+      <li
+        className="TableauCard"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(189,189,189)",
+            "border": "1px solid rgba(93, 64, 55)",
+          }
+        }
+      >
+        <ul
+          className="TableauCard-effectList"
+        >
+          <li
+            className="TableauCard-effect"
+          >
+            Glass
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <ul
+      className="Tableau-cardList"
+    >
+      <li
+        className="TableauCard"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(239,83,80)",
+            "border": "1px solid rgba(93, 64, 55)",
+          }
+        }
+      >
+        <ul
+          className="TableauCard-effectList"
+        >
+          <li
+            className="TableauCard-effect"
+          >
+            1 shield
+          </li>
+        </ul>
+      </li>
+      <li
+        className="TableauCard"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(255,235,59)",
+            "border": "1px solid rgba(93, 64, 55)",
+          }
+        }
+      >
+        <ul
+          className="TableauCard-effectList"
+        >
+          <li
+            className="TableauCard-effect"
+          >
+            5 coins
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div
+    className="Tableau"
+    style={
+      Object {
+        "borderColor": "#000",
+        "borderStyle": "solid",
+        "borderWidth": "0 0 1px 1px",
+        "justifyContent": "flex-end",
+        "width": "33.3%",
+      }
+    }
+  >
+    <ul
+      className="Tableau-cardList"
+    >
+      <li
+        className="TableauCard"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(141,110,99)",
+            "border": "1px solid rgba(93, 64, 55)",
+          }
+        }
+      >
+        <ul
+          className="TableauCard-effectList"
+        >
+          <li
+            className="TableauCard-effect"
+          >
+            Ore
+          </li>
+        </ul>
+      </li>
+      <li
+        className="TableauCard"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(141,110,99)",
+            "border": "1px solid rgba(93, 64, 55)",
+          }
+        }
+      >
+        <ul
+          className="TableauCard-effectList"
+        >
+          <li
+            className="TableauCard-effect"
+          >
+            Clay / Ore
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <ul
+      className="Tableau-cardList"
+    >
+      <li
+        className="TableauCard"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(33,150,243)",
+            "border": "1px solid rgba(93, 64, 55)",
+          }
+        }
+      >
+        <ul
+          className="TableauCard-effectList"
+        >
+          <li
+            className="TableauCard-effect"
+          >
+            3 points
+          </li>
+        </ul>
+      </li>
+      <li
+        className="TableauCard"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(33,150,243)",
+            "border": "1px solid rgba(93, 64, 55)",
+          }
+        }
+      >
+        <ul
+          className="TableauCard-effectList"
+        >
+          <li
+            className="TableauCard-effect"
+          >
+            2 points
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

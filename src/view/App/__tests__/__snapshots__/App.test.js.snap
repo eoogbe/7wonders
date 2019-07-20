@@ -1,0 +1,1569 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the AGE scene 1`] = `
+<h1
+  className="AgeScene"
+  style={
+    Object {
+      "backgroundColor": "rgb(141,110,99, 0.7)",
+    }
+  }
+>
+  Age I
+</h1>
+`;
+
+exports[`renders the PLAYER_PICKER scene 1`] = `
+<section
+  className="PlayerPicker"
+>
+  <h1
+    className="PlayerPicker-title"
+  >
+    Choose the number of players:
+  </h1>
+  <div
+    className="PlayerPicker-picker"
+  >
+    <button
+      className="PlayerPicker-arrow"
+      disabled={false}
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "rgba(93, 64, 55)",
+        }
+      }
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+        />
+      </svg>
+    </button>
+    <div
+      className="PlayerPicker-playerCount"
+    >
+      4
+    </div>
+    <button
+      className="PlayerPicker-arrow"
+      disabled={false}
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "rgba(93, 64, 55)",
+        }
+      }
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"
+        />
+      </svg>
+    </button>
+    <button
+      className="PlayerPicker-nextButton primary-button"
+      onClick={[Function]}
+      type="button"
+    >
+      Next
+    </button>
+  </div>
+</section>
+`;
+
+exports[`renders the SCORE_BOARD scene 1`] = `
+<div
+  className="ScoreBoard"
+>
+  <table
+    className="ScoreBoard-scoreTable"
+  >
+    <caption
+      className="ScoreBoard-caption"
+    >
+      <b
+        className="keyword"
+      >
+        Winner:
+      </b>
+       
+      TEMPLE_OF_ARTEMIS_IN_EPHESUS
+    </caption>
+    <thead>
+      <tr>
+        <th
+          className="ScoreBoard-playerHeader"
+          scope="col"
+        >
+          Player
+        </th>
+        <th
+          className="ScoreBoard-colHeader"
+          scope="col"
+          style={
+            Object {
+              "backgroundColor": "rgb(239,83,80, 0.7)",
+            }
+          }
+        >
+          Military
+        </th>
+        <th
+          className="ScoreBoard-colHeader"
+          scope="col"
+          style={
+            Object {
+              "backgroundColor": "rgb(255,235,59, 0.7)",
+            }
+          }
+        >
+          Money
+        </th>
+        <th
+          className="ScoreBoard-colHeader"
+          scope="col"
+          style={
+            Object {
+              "backgroundColor": "rgb(141,110,99, 0.7)",
+            }
+          }
+        >
+          Wonder
+        </th>
+        <th
+          className="ScoreBoard-colHeader"
+          scope="col"
+          style={
+            Object {
+              "backgroundColor": "rgb(33,150,243, 0.7)",
+            }
+          }
+        >
+          Civic
+        </th>
+        <th
+          className="ScoreBoard-colHeader"
+          scope="col"
+          style={
+            Object {
+              "backgroundColor": "rgb(76,175,80, 0.7)",
+            }
+          }
+        >
+          Science
+        </th>
+        <th
+          className="ScoreBoard-colHeader"
+          scope="col"
+          style={
+            Object {
+              "backgroundColor": "rgb(255,235,59, 0.7)",
+            }
+          }
+        >
+          Trade
+        </th>
+        <th
+          className="ScoreBoard-colHeader"
+          scope="col"
+          style={
+            Object {
+              "backgroundColor": "rgb(171,71,188, 0.7)",
+            }
+          }
+        >
+          Guild
+        </th>
+        <th
+          className="ScoreBoard-totalHeader"
+          scope="col"
+        >
+          Total
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        className="ScoreBoard-row"
+      >
+        <th
+          className="ScoreBoard-rowHeader"
+          scope="row"
+        >
+          PYRAMIDS_OF_GIZA
+        </th>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(239,83,80, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(255,235,59, 0.7)",
+            }
+          }
+        >
+          1
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(141,110,99, 0.7)",
+            }
+          }
+        >
+          3
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(33,150,243, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(76,175,80, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(255,235,59, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(171,71,188, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-totalCell"
+          style={
+            Object {
+              "backgroundColor": "rgb(255, 255, 255)",
+            }
+          }
+        >
+          4
+        </td>
+      </tr>
+      <tr
+        className="ScoreBoard-row"
+      >
+        <th
+          className="ScoreBoard-rowHeader"
+          scope="row"
+        >
+          COLOSSUS_OF_RHODES
+        </th>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(239,83,80, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(255,235,59, 0.7)",
+            }
+          }
+        >
+          1
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(141,110,99, 0.7)",
+            }
+          }
+        >
+          3
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(33,150,243, 0.7)",
+            }
+          }
+        >
+          5
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(76,175,80, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(255,235,59, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(171,71,188, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-totalCell"
+          style={
+            Object {
+              "backgroundColor": "rgb(255, 255, 255)",
+            }
+          }
+        >
+          9
+        </td>
+      </tr>
+      <tr
+        className="ScoreBoard-row"
+      >
+        <th
+          className="ScoreBoard-rowHeader"
+          scope="row"
+        >
+          TEMPLE_OF_ARTEMIS_IN_EPHESUS
+        </th>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(239,83,80, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(255,235,59, 0.7)",
+            }
+          }
+        >
+          1
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(141,110,99, 0.7)",
+            }
+          }
+        >
+          10
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(33,150,243, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(76,175,80, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(255,235,59, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(171,71,188, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-totalCell"
+          style={
+            Object {
+              "backgroundColor": "rgb(255, 255, 255)",
+            }
+          }
+        >
+          11
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div
+    className="ScoreBoard-buttonPanel"
+  >
+    <button
+      className="QuitButton"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(93, 64, 55)",
+          "color": "#FFF",
+          "fontSize": "1.25em",
+          "width": "8em",
+        }
+      }
+      type="button"
+    >
+      Quit
+    </button>
+    <button
+      className="primary-button"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(93, 64, 55)",
+          "color": "#FFF",
+          "fontSize": "1.25em",
+          "width": "8em",
+        }
+      }
+      type="button"
+    >
+      Return to game
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders the WAR scene 1`] = `
+<div
+  className="War"
+>
+  <div
+    className="War-conflictContainer"
+  >
+    <div>
+      <div>
+        1 shield
+      </div>
+      <div
+        className="Conflict-points"
+      >
+        0 points
+      </div>
+      <div>
+        Tie
+      </div>
+    </div>
+    <div>
+      1 shield
+    </div>
+    <div>
+      <div>
+        2 shields
+      </div>
+      <div
+        className="Conflict-points"
+      >
+        -1 points
+      </div>
+      <div>
+        Lose
+      </div>
+    </div>
+  </div>
+  <button
+    className="primary-button"
+    onClick={[Function]}
+    type="button"
+  >
+    Continue
+  </button>
+</div>
+`;
+
+exports[`renders the WONDER_PANEL scene 1`] = `
+<div
+  className="WonderPanel"
+>
+  <ul
+    className="WonderPanel-wonderList"
+  >
+    <li
+      className="WonderPanelWonder"
+    >
+      <div
+        className="WonderPanelWonder-name"
+        onClick={[Function]}
+      >
+        Temple of Artemis in Ephesus (A)
+      </div>
+    </li>
+    <li
+      className="WonderPanelWonder"
+    >
+      <div
+        className="WonderPanelWonder-currentPlayer"
+      >
+        player
+      </div>
+      <div
+        className="WonderPanelWonder-name"
+        onClick={[Function]}
+      >
+        Pyramids of Giza (A)
+      </div>
+    </li>
+    <li
+      className="WonderPanelWonder"
+    >
+      <div
+        className="WonderPanelWonder-name"
+        onClick={[Function]}
+      >
+        Colossus of Rhodes (A)
+      </div>
+    </li>
+  </ul>
+  <button
+    className="WonderPanel-startButton primary-button"
+    onClick={[Function]}
+    type="button"
+  >
+    Start game
+  </button>
+  <button
+    className="QuitButton"
+    onClick={[Function]}
+    style={
+      Object {
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+      }
+    }
+    type="button"
+  >
+    Quit
+  </button>
+</div>
+`;
+
+exports[`renders the WONER_CHOOSER scene 1`] = `
+<section
+  className="WonderChooser"
+>
+  <h1
+    className="WonderChooser-title"
+  >
+    Choose your wonder:
+  </h1>
+  <div
+    className="WonderChooser-selectedWonder"
+  >
+    <ol
+      className="WonderChooser-stageList"
+    >
+      <li
+        className="WonderChooserWonderStage"
+      >
+        <ul
+          className="WonderChooserWonderStage-cost"
+        >
+          <li>
+            Stone
+          </li>
+          <li>
+            Stone
+          </li>
+        </ul>
+        <ul
+          className="WonderChooserWonderStage-effectList"
+        >
+          <li>
+            3 points
+          </li>
+        </ul>
+      </li>
+      <li
+        className="WonderChooserWonderStage"
+      >
+        <ul
+          className="WonderChooserWonderStage-cost"
+        >
+          <li>
+            Wood
+          </li>
+          <li>
+            Wood
+          </li>
+          <li>
+            Wood
+          </li>
+        </ul>
+        <ul
+          className="WonderChooserWonderStage-effectList"
+        >
+          <li>
+            5 points
+          </li>
+        </ul>
+      </li>
+      <li
+        className="WonderChooserWonderStage"
+      >
+        <ul
+          className="WonderChooserWonderStage-cost"
+        >
+          <li>
+            Stone
+          </li>
+          <li>
+            Stone
+          </li>
+          <li>
+            Stone
+          </li>
+          <li>
+            Stone
+          </li>
+        </ul>
+        <ul
+          className="WonderChooserWonderStage-effectList"
+        >
+          <li>
+            7 points
+          </li>
+        </ul>
+      </li>
+    </ol>
+    <button
+      className="WonderChooser-wonderSide"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(93, 64, 55)",
+        }
+      }
+      type="button"
+    >
+      A
+    </button>
+  </div>
+  <ul
+    className="WonderChooser-wonderList"
+  >
+    <li
+      className="WonderChooser-wonder"
+      onClick={[Function]}
+    >
+      Colossus of Rhodes
+    </li>
+    <li
+      className="WonderChooser-wonder"
+      onClick={[Function]}
+    >
+      Hanging garden of Babylon
+    </li>
+    <li
+      className="WonderChooser-wonder"
+      onClick={[Function]}
+    >
+      Lighthouse of Alexandria
+    </li>
+    <li
+      className="WonderChooser-wonder"
+      onClick={[Function]}
+    >
+      Mausoleum of Halicarnassus
+    </li>
+    <li
+      className="WonderChooser-wonder selected"
+      onClick={[Function]}
+    >
+      Pyramids of Giza
+    </li>
+    <li
+      className="WonderChooser-wonder"
+      onClick={[Function]}
+    >
+      Statue of Zeus in Olympia
+    </li>
+    <li
+      className="WonderChooser-wonder"
+      onClick={[Function]}
+    >
+      Temple of Artemis in Ephesus
+    </li>
+  </ul>
+  <button
+    className="WonderChooser-nextButton primary-button"
+    onClick={[Function]}
+    type="button"
+  >
+    Choose wonder
+  </button>
+  <button
+    className="QuitButton"
+    onClick={[Function]}
+    style={
+      Object {
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+      }
+    }
+    type="button"
+  >
+    Quit
+  </button>
+</section>
+`;
+
+exports[`renders without crashing 1`] = `
+<div
+  className="GameBoard"
+>
+  <ol
+    className="PlayerList"
+  >
+    <li
+      className="Player"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+    >
+      <div
+        className="Player-name"
+      >
+        Temple of Artemis in Ephesus
+      </div>
+      <ol
+        className="PlayerWonder"
+      >
+        <li
+          className="PlayerWonderStage"
+          style={Object {}}
+        >
+          <ul>
+            <li>
+              3 points
+            </li>
+          </ul>
+        </li>
+        <li
+          className="PlayerWonderStage"
+          style={Object {}}
+        >
+          <ul>
+            <li>
+              9 coins
+            </li>
+          </ul>
+        </li>
+        <li
+          className="PlayerWonderStage"
+          style={Object {}}
+        >
+          <ul>
+            <li>
+              7 points
+            </li>
+          </ul>
+        </li>
+      </ol>
+    </li>
+    <li
+      className="Player"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+    >
+      <div
+        className="Player-name"
+      >
+        Colossus of Rhodes
+      </div>
+      <ol
+        className="PlayerWonder"
+      >
+        <li
+          className="PlayerWonderStage"
+          style={Object {}}
+        >
+          <ul>
+            <li>
+              3 points
+            </li>
+          </ul>
+        </li>
+        <li
+          className="PlayerWonderStage"
+          style={Object {}}
+        >
+          <ul>
+            <li>
+              2 shields
+            </li>
+          </ul>
+        </li>
+        <li
+          className="PlayerWonderStage"
+          style={
+            Object {
+              "backgroundColor": "rgba(93, 64, 55, 0.5)",
+            }
+          }
+        >
+          <ul>
+            <li>
+              7 points
+            </li>
+          </ul>
+        </li>
+      </ol>
+    </li>
+  </ol>
+  <div
+    className="TableauList"
+  >
+    <div
+      className="Tableau"
+      style={
+        Object {
+          "borderColor": "#000",
+          "borderStyle": "solid",
+          "borderWidth": "0 1px 1px 0",
+          "width": "33.3%",
+        }
+      }
+    >
+      <ul
+        className="Tableau-cardList"
+      >
+        <li
+          className="TableauCard"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "backgroundColor": "rgb(189,189,189)",
+              "border": "1px solid rgba(93, 64, 55)",
+            }
+          }
+        >
+          <ul
+            className="TableauCard-effectList"
+          >
+            <li
+              className="TableauCard-effect"
+            >
+              Papyrus
+            </li>
+          </ul>
+        </li>
+        <li
+          className="TableauCard"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "backgroundColor": "rgb(141,110,99)",
+              "border": "1px solid rgba(93, 64, 55)",
+            }
+          }
+        >
+          <ul
+            className="TableauCard-effectList"
+          >
+            <li
+              className="TableauCard-effect"
+            >
+              Clay
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul
+        className="Tableau-cardList"
+      >
+        <li
+          className="TableauCard"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "backgroundColor": "rgb(239,83,80)",
+              "border": "1px solid rgba(93, 64, 55)",
+            }
+          }
+        >
+          <ul
+            className="TableauCard-effectList"
+          >
+            <li
+              className="TableauCard-effect"
+            >
+              1 shield
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="Tableau"
+      style={
+        Object {
+          "borderTop": "1px solid #000",
+          "justifyContent": "center",
+          "width": "33.3%",
+        }
+      }
+    >
+      <ul
+        className="Tableau-cardList"
+      >
+        <li
+          className="TableauCard"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "backgroundColor": "rgb(141,110,99)",
+              "border": "1px solid rgba(93, 64, 55)",
+            }
+          }
+        >
+          <ul
+            className="TableauCard-effectList"
+          >
+            <li
+              className="TableauCard-effect"
+            >
+              Stone
+            </li>
+          </ul>
+        </li>
+        <li
+          className="TableauCard"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "backgroundColor": "rgb(189,189,189)",
+              "border": "1px solid rgba(93, 64, 55)",
+            }
+          }
+        >
+          <ul
+            className="TableauCard-effectList"
+          >
+            <li
+              className="TableauCard-effect"
+            >
+              Glass
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul
+        className="Tableau-cardList"
+      >
+        <li
+          className="TableauCard"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "backgroundColor": "rgb(239,83,80)",
+              "border": "1px solid rgba(93, 64, 55)",
+            }
+          }
+        >
+          <ul
+            className="TableauCard-effectList"
+          >
+            <li
+              className="TableauCard-effect"
+            >
+              1 shield
+            </li>
+          </ul>
+        </li>
+        <li
+          className="TableauCard"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "backgroundColor": "rgb(255,235,59)",
+              "border": "1px solid rgba(93, 64, 55)",
+            }
+          }
+        >
+          <ul
+            className="TableauCard-effectList"
+          >
+            <li
+              className="TableauCard-effect"
+            >
+              5 coins
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="Tableau"
+      style={
+        Object {
+          "borderColor": "#000",
+          "borderStyle": "solid",
+          "borderWidth": "0 0 1px 1px",
+          "justifyContent": "flex-end",
+          "width": "33.3%",
+        }
+      }
+    >
+      <ul
+        className="Tableau-cardList"
+      >
+        <li
+          className="TableauCard"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "backgroundColor": "rgb(141,110,99)",
+              "border": "1px solid rgba(93, 64, 55)",
+            }
+          }
+        >
+          <ul
+            className="TableauCard-effectList"
+          >
+            <li
+              className="TableauCard-effect"
+            >
+              Ore
+            </li>
+          </ul>
+        </li>
+        <li
+          className="TableauCard"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "backgroundColor": "rgb(141,110,99)",
+              "border": "1px solid rgba(93, 64, 55)",
+            }
+          }
+        >
+          <ul
+            className="TableauCard-effectList"
+          >
+            <li
+              className="TableauCard-effect"
+            >
+              Clay / Ore
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul
+        className="Tableau-cardList"
+      >
+        <li
+          className="TableauCard"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "backgroundColor": "rgb(33,150,243)",
+              "border": "1px solid rgba(93, 64, 55)",
+            }
+          }
+        >
+          <ul
+            className="TableauCard-effectList"
+          >
+            <li
+              className="TableauCard-effect"
+            >
+              3 points
+            </li>
+          </ul>
+        </li>
+        <li
+          className="TableauCard"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "backgroundColor": "rgb(33,150,243)",
+              "border": "1px solid rgba(93, 64, 55)",
+            }
+          }
+        >
+          <ul
+            className="TableauCard-effectList"
+          >
+            <li
+              className="TableauCard-effect"
+            >
+              2 points
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div>
+    <div
+      className="GameBoardWonder-tokenContainer"
+    >
+      <div
+        className="GameBoardWonder-token"
+      >
+        3 coins
+      </div>
+      <div
+        className="GameBoardWonder-token"
+      >
+        1 shield
+      </div>
+    </div>
+    <ol
+      className="GameBoardWonder-stageList"
+    >
+      <li
+        className="GameBoardWonderStage"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={Object {}}
+      >
+        <ul
+          className="GameBoardWonderStage-cost"
+        >
+          <li>
+            Stone
+          </li>
+          <li>
+            Stone
+          </li>
+        </ul>
+        <ul
+          className="GameBoardWonderStage-effectList"
+        >
+          <li>
+            3 points
+          </li>
+        </ul>
+      </li>
+      <li
+        className="GameBoardWonderStage"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgba(93, 64, 55, 0.5)",
+          }
+        }
+      >
+        <ul
+          className="GameBoardWonderStage-cost"
+        >
+          <li>
+            Wood
+          </li>
+          <li>
+            Wood
+          </li>
+          <li>
+            Wood
+          </li>
+        </ul>
+        <ul
+          className="GameBoardWonderStage-effectList"
+        >
+          <li>
+            5 points
+          </li>
+        </ul>
+        <div
+          className="GameBoardWonderStage-payment"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8 0-1.85.63-3.55 1.69-4.9L16.9 18.31C15.55 19.37 13.85 20 12 20zm6.31-3.1L7.1 5.69C8.45 4.63 10.15 4 12 4c4.42 0 8 3.58 8 8 0 1.85-.63 3.55-1.69 4.9z"
+            />
+          </svg>
+        </div>
+      </li>
+      <li
+        className="GameBoardWonderStage"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgba(93, 64, 55, 0.5)",
+          }
+        }
+      >
+        <ul
+          className="GameBoardWonderStage-cost"
+        >
+          <li>
+            Stone
+          </li>
+          <li>
+            Stone
+          </li>
+          <li>
+            Stone
+          </li>
+          <li>
+            Stone
+          </li>
+        </ul>
+        <ul
+          className="GameBoardWonderStage-effectList"
+        >
+          <li>
+            7 points
+          </li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+  <ul
+    className="ActionPanel"
+  >
+    <li>
+      <button
+        className="primary-button"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        Build structure
+      </button>
+    </li>
+    <li>
+      <button
+        className="primary-button"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        Build wonder
+      </button>
+    </li>
+    <li>
+      <button
+        className="primary-button"
+        disabled={true}
+        onClick={[Function]}
+        type="button"
+      >
+        Add money
+      </button>
+    </li>
+  </ul>
+  <section>
+    <ul
+      className="Hand-cardList"
+    >
+      <li
+        className="HandCard"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(255,235,59)",
+          }
+        }
+      >
+        <ul>
+          <li>
+            R trade
+          </li>
+        </ul>
+        <div
+          className="HandCard-footer"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+            />
+          </svg>
+          <div
+            className="HandCard-name"
+          >
+            East trading post
+          </div>
+        </div>
+      </li>
+      <li
+        className="HandCard"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(76,175,80)",
+          }
+        }
+      >
+        <ul
+          className="HandCard-cost"
+        >
+          <li
+            className="HandCard-costItem"
+          >
+            Loom
+          </li>
+        </ul>
+        <ul>
+          <li>
+            Compass
+          </li>
+        </ul>
+        <div
+          className="HandCard-footer"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8 0-1.85.63-3.55 1.69-4.9L16.9 18.31C15.55 19.37 13.85 20 12 20zm6.31-3.1L7.1 5.69C8.45 4.63 10.15 4 12 4c4.42 0 8 3.58 8 8 0 1.85-.63 3.55-1.69 4.9z"
+            />
+          </svg>
+          <div
+            className="HandCard-name"
+          >
+            Apothecary
+          </div>
+        </div>
+      </li>
+      <li
+        className="HandCard"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(141,110,99)",
+          }
+        }
+      >
+        <ul
+          className="HandCard-cost"
+        >
+          <li
+            className="HandCard-costItem"
+          >
+            1 coin
+          </li>
+        </ul>
+        <ul>
+          <li>
+            Ore / Stone
+          </li>
+        </ul>
+        <div
+          className="HandCard-footer"
+        >
+          <div>
+            -
+            1
+          </div>
+          <div
+            className="HandCard-name"
+          >
+            Mine
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <button
+    className="QuitButton"
+    onClick={[Function]}
+    style={
+      Object {
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+      }
+    }
+    type="button"
+  >
+    Quit
+  </button>
+</div>
+`;

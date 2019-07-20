@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div
+  className="War"
+>
+  <div
+    className="War-conflictContainer"
+  >
+    <div>
+      <div>
+        1 shield
+      </div>
+      <div
+        className="Conflict-points"
+      >
+        0 points
+      </div>
+      <div>
+        Tie
+      </div>
+    </div>
+    <div>
+      1 shield
+    </div>
+    <div>
+      <div>
+        2 shields
+      </div>
+      <div
+        className="Conflict-points"
+      >
+        -1 points
+      </div>
+      <div>
+        Lose
+      </div>
+    </div>
+  </div>
+  <button
+    className="primary-button"
+    onClick={[Function]}
+    type="button"
+  >
+    Continue
+  </button>
+</div>
+`;

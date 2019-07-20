@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div
+  className="WonderPanel"
+>
+  <ul
+    className="WonderPanel-wonderList"
+  >
+    <li
+      className="WonderPanelWonder"
+    >
+      <div
+        className="WonderPanelWonder-name"
+        onClick={[Function]}
+      >
+        Temple of Artemis in Ephesus (A)
+      </div>
+    </li>
+    <li
+      className="WonderPanelWonder"
+    >
+      <div
+        className="WonderPanelWonder-currentPlayer"
+      >
+        player
+      </div>
+      <div
+        className="WonderPanelWonder-name"
+        onClick={[Function]}
+      >
+        Pyramids of Giza (A)
+      </div>
+    </li>
+    <li
+      className="WonderPanelWonder"
+    >
+      <div
+        className="WonderPanelWonder-name"
+        onClick={[Function]}
+      >
+        Colossus of Rhodes (A)
+      </div>
+    </li>
+  </ul>
+  <button
+    className="WonderPanel-startButton primary-button"
+    onClick={[Function]}
+    type="button"
+  >
+    Start game
+  </button>
+  <button
+    className="QuitButton"
+    onClick={[Function]}
+    style={
+      Object {
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+      }
+    }
+    type="button"
+  >
+    Quit
+  </button>
+</div>
+`;

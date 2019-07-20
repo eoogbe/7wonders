@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<section
+  className="CalloutSection"
+>
+  <h3
+    className="CalloutSection-heading"
+  >
+    This stage awards
+    :
+  </h3>
+  <ul
+    className="CalloutSection-list"
+  >
+    <li>
+      3 points
+    </li>
+    <li>
+      3 coins
+    </li>
+    <li>
+      1 shield
+    </li>
+  </ul>
+</section>
+`;

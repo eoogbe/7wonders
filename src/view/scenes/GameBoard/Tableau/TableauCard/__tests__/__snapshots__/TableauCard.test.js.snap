@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<li
+  className="TableauCard"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onTouchEnd={[Function]}
+  onTouchStart={[Function]}
+  style={
+    Object {
+      "backgroundColor": "rgb(141,110,99)",
+      "border": "1px solid rgba(93, 64, 55)",
+    }
+  }
+>
+  <ul
+    className="TableauCard-effectList"
+  >
+    <li
+      className="TableauCard-effect"
+    >
+      Wood
+    </li>
+  </ul>
+</li>
+`;

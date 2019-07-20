@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<section>
+  <header
+    className="Callout-header"
+  >
+    <h2
+      className="Callout-title"
+    >
+      Pyramids of Giza
+    </h2>
+    <p
+      className="Callout-subtitle"
+    >
+      Stage 
+      1
+    </p>
+  </header>
+  <section
+    className="CalloutSection"
+  >
+    <h3
+      className="CalloutSection-heading"
+    >
+      This stage awards
+      :
+    </h3>
+    <ul
+      className="CalloutSection-list"
+    >
+      <li>
+        3 points
+      </li>
+    </ul>
+  </section>
+  <section
+    className="CalloutSection"
+  >
+    <h3
+      className="CalloutSection-heading"
+    >
+      It costs
+      :
+    </h3>
+    <ul
+      className="CalloutSection-list"
+    >
+      <li>
+        2 Stone
+      </li>
+    </ul>
+  </section>
+  <p
+    className="Callout-paragraph"
+  >
+    You have built this stage.
+  </p>
+</section>
+`;

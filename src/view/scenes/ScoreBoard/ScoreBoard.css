@@ -1,0 +1,100 @@
+/**
+ * Copyright 2022 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+.ScoreBoard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.ScoreBoard-scoreTable {
+  font-size: 1rem;
+  margin-bottom: 0.5em;
+  border-collapse: collapse;
+}
+
+.ScoreBoard-caption {
+  font-size: 1.25rem;
+  margin-bottom: 0.25em;
+}
+
+.ScoreBoard-playerHeader {
+  padding: 1px 3px;
+  border-color: #BDBDBD;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  text-align: left;
+  font-weight: normal;
+}
+
+.ScoreBoard-colHeader {
+  padding: 1px 3px;
+  border-color: #BDBDBD;
+  border-style: solid;
+  border-width: 0 0 2px 0;
+  text-align: center;
+  font-weight: normal;
+}
+
+.ScoreBoard-totalHeader {
+  padding: 1px 3px;
+  border-color: #BDBDBD;
+  border-style: solid;
+  border-width: 0 0 2px 2px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.ScoreBoard-rowHeader {
+  padding: 1px 2px;
+  border-color: #BDBDBD;
+  border-style: solid;
+  border-width: 0 2px 1px 0;
+  text-align: left;
+  font-weight: normal;
+}
+
+.ScoreBoard-row:first-child th,
+.ScoreBoard-row:first-child td {
+  font-weight: bold;
+}
+
+.ScoreBoard-row:last-child th,
+.ScoreBoard-row:last-child td {
+  border-bottom-width: 0;
+}
+
+.ScoreBoard-cell {
+  padding: 1px 2px;
+  text-align: center;
+  border-bottom: 1px solid #BDBDBD;
+}
+
+.ScoreBoard-totalCell {
+  padding: 1px 2px;
+  border-color: #BDBDBD;
+  border-style: solid;
+  border-width: 0 0 1px 1px;
+  text-align: center;
+}
+
+.ScoreBoard-buttonPanel {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}

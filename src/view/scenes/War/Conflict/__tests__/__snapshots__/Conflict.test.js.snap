@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div>
+  <div>
+    1 shield
+  </div>
+  <div
+    className="Conflict-points"
+  >
+    1 point
+  </div>
+  <div>
+    Win
+  </div>
+</div>
+`;

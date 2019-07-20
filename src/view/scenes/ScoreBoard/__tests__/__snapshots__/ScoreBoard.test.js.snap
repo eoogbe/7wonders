@@ -1,0 +1,422 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div
+  className="ScoreBoard"
+>
+  <table
+    className="ScoreBoard-scoreTable"
+  >
+    <caption
+      className="ScoreBoard-caption"
+    >
+      <b
+        className="keyword"
+      >
+        Winner:
+      </b>
+       
+      TEMPLE_OF_ARTEMIS_IN_EPHESUS
+    </caption>
+    <thead>
+      <tr>
+        <th
+          className="ScoreBoard-playerHeader"
+          scope="col"
+        >
+          Player
+        </th>
+        <th
+          className="ScoreBoard-colHeader"
+          scope="col"
+          style={
+            Object {
+              "backgroundColor": "rgb(239,83,80, 0.7)",
+            }
+          }
+        >
+          Military
+        </th>
+        <th
+          className="ScoreBoard-colHeader"
+          scope="col"
+          style={
+            Object {
+              "backgroundColor": "rgb(255,235,59, 0.7)",
+            }
+          }
+        >
+          Money
+        </th>
+        <th
+          className="ScoreBoard-colHeader"
+          scope="col"
+          style={
+            Object {
+              "backgroundColor": "rgb(141,110,99, 0.7)",
+            }
+          }
+        >
+          Wonder
+        </th>
+        <th
+          className="ScoreBoard-colHeader"
+          scope="col"
+          style={
+            Object {
+              "backgroundColor": "rgb(33,150,243, 0.7)",
+            }
+          }
+        >
+          Civic
+        </th>
+        <th
+          className="ScoreBoard-colHeader"
+          scope="col"
+          style={
+            Object {
+              "backgroundColor": "rgb(76,175,80, 0.7)",
+            }
+          }
+        >
+          Science
+        </th>
+        <th
+          className="ScoreBoard-colHeader"
+          scope="col"
+          style={
+            Object {
+              "backgroundColor": "rgb(255,235,59, 0.7)",
+            }
+          }
+        >
+          Trade
+        </th>
+        <th
+          className="ScoreBoard-colHeader"
+          scope="col"
+          style={
+            Object {
+              "backgroundColor": "rgb(171,71,188, 0.7)",
+            }
+          }
+        >
+          Guild
+        </th>
+        <th
+          className="ScoreBoard-totalHeader"
+          scope="col"
+        >
+          Total
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        className="ScoreBoard-row"
+      >
+        <th
+          className="ScoreBoard-rowHeader"
+          scope="row"
+        >
+          PYRAMIDS_OF_GIZA
+        </th>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(239,83,80, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(255,235,59, 0.7)",
+            }
+          }
+        >
+          1
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(141,110,99, 0.7)",
+            }
+          }
+        >
+          3
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(33,150,243, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(76,175,80, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(255,235,59, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(171,71,188, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-totalCell"
+          style={
+            Object {
+              "backgroundColor": "rgb(255, 255, 255)",
+            }
+          }
+        >
+          4
+        </td>
+      </tr>
+      <tr
+        className="ScoreBoard-row"
+      >
+        <th
+          className="ScoreBoard-rowHeader"
+          scope="row"
+        >
+          COLOSSUS_OF_RHODES
+        </th>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(239,83,80, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(255,235,59, 0.7)",
+            }
+          }
+        >
+          1
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(141,110,99, 0.7)",
+            }
+          }
+        >
+          3
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(33,150,243, 0.7)",
+            }
+          }
+        >
+          5
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(76,175,80, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(255,235,59, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(171,71,188, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-totalCell"
+          style={
+            Object {
+              "backgroundColor": "rgb(255, 255, 255)",
+            }
+          }
+        >
+          9
+        </td>
+      </tr>
+      <tr
+        className="ScoreBoard-row"
+      >
+        <th
+          className="ScoreBoard-rowHeader"
+          scope="row"
+        >
+          TEMPLE_OF_ARTEMIS_IN_EPHESUS
+        </th>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(239,83,80, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(255,235,59, 0.7)",
+            }
+          }
+        >
+          1
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(141,110,99, 0.7)",
+            }
+          }
+        >
+          10
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(33,150,243, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(76,175,80, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(255,235,59, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-cell"
+          style={
+            Object {
+              "backgroundColor": "rgb(171,71,188, 0.7)",
+            }
+          }
+        >
+          0
+        </td>
+        <td
+          className="ScoreBoard-totalCell"
+          style={
+            Object {
+              "backgroundColor": "rgb(255, 255, 255)",
+            }
+          }
+        >
+          11
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div
+    className="ScoreBoard-buttonPanel"
+  >
+    <button
+      className="QuitButton"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(93, 64, 55)",
+          "color": "#FFF",
+          "fontSize": "1.25em",
+          "width": "8em",
+        }
+      }
+      type="button"
+    >
+      Quit
+    </button>
+    <button
+      className="primary-button"
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(93, 64, 55)",
+          "color": "#FFF",
+          "fontSize": "1.25em",
+          "width": "8em",
+        }
+      }
+      type="button"
+    >
+      Return to game
+    </button>
+  </div>
+</div>
+`;

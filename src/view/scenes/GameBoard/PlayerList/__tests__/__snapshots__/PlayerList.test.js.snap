@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<ol
+  className="PlayerList"
+>
+  <li
+    className="Player"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+  >
+    <div
+      className="Player-name"
+    >
+      Temple of Artemis in Ephesus
+    </div>
+    <ol
+      className="PlayerWonder"
+    >
+      <li
+        className="PlayerWonderStage"
+        style={Object {}}
+      >
+        <ul>
+          <li>
+            3 points
+          </li>
+        </ul>
+      </li>
+      <li
+        className="PlayerWonderStage"
+        style={Object {}}
+      >
+        <ul>
+          <li>
+            9 coins
+          </li>
+        </ul>
+      </li>
+      <li
+        className="PlayerWonderStage"
+        style={Object {}}
+      >
+        <ul>
+          <li>
+            7 points
+          </li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+  <li
+    className="Player"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+  >
+    <div
+      className="Player-name"
+    >
+      Colossus of Rhodes
+    </div>
+    <ol
+      className="PlayerWonder"
+    >
+      <li
+        className="PlayerWonderStage"
+        style={Object {}}
+      >
+        <ul>
+          <li>
+            3 points
+          </li>
+        </ul>
+      </li>
+      <li
+        className="PlayerWonderStage"
+        style={Object {}}
+      >
+        <ul>
+          <li>
+            2 shields
+          </li>
+        </ul>
+      </li>
+      <li
+        className="PlayerWonderStage"
+        style={
+          Object {
+            "backgroundColor": "rgba(93, 64, 55, 0.5)",
+          }
+        }
+      >
+        <ul>
+          <li>
+            7 points
+          </li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+</ol>
+`;

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<section
+  className="NeighborChooser"
+>
+  <h2
+    className="NeighborChooser-heading"
+  >
+    Choose a neighbor to trade with:
+  </h2>
+  <ul
+    className="NeighborChooser-buttonPanel"
+  >
+    <li>
+      <button
+        className="primary-button"
+        onClick={[Function]}
+        type="button"
+      >
+        Left neighbor
+      </button>
+    </li>
+    <li>
+      <button
+        className="primary-button"
+        onClick={[Function]}
+        type="button"
+      >
+        Right neighbor
+      </button>
+    </li>
+  </ul>
+</section>
+`;

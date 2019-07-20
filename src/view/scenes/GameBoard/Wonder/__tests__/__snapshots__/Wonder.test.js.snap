@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders when can build a free structure 1`] = `
+<div>
+  <div
+    className="GameBoardWonder-tokenContainer"
+  >
+    <div
+      className="GameBoardWonder-token"
+    >
+      3 coins
+    </div>
+    <div
+      className="GameBoardWonder-token"
+    >
+      1 shield
+    </div>
+    <div
+      className="GameBoardWonder-token"
+    >
+      Can build free structure
+    </div>
+  </div>
+  <ol
+    className="GameBoardWonder-stageList"
+  >
+    <li
+      className="GameBoardWonderStage"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      style={Object {}}
+    >
+      <ul
+        className="GameBoardWonderStage-cost"
+      >
+        <li>
+          Wood
+        </li>
+        <li>
+          Wood
+        </li>
+      </ul>
+      <ul
+        className="GameBoardWonderStage-effectList"
+      >
+        <li>
+          3 points
+        </li>
+      </ul>
+    </li>
+    <li
+      className="GameBoardWonderStage"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(93, 64, 55, 0.5)",
+        }
+      }
+    >
+      <ul
+        className="GameBoardWonderStage-cost"
+      >
+        <li>
+          Stone
+        </li>
+        <li>
+          Stone
+        </li>
+      </ul>
+      <ul
+        className="GameBoardWonderStage-effectList"
+      >
+        <li>
+          Build free
+        </li>
+      </ul>
+      <div
+        className="GameBoardWonderStage-payment"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8 0-1.85.63-3.55 1.69-4.9L16.9 18.31C15.55 19.37 13.85 20 12 20zm6.31-3.1L7.1 5.69C8.45 4.63 10.15 4 12 4c4.42 0 8 3.58 8 8 0 1.85-.63 3.55-1.69 4.9z"
+          />
+        </svg>
+      </div>
+    </li>
+    <li
+      className="GameBoardWonderStage"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(93, 64, 55, 0.5)",
+        }
+      }
+    >
+      <ul
+        className="GameBoardWonderStage-cost"
+      >
+        <li>
+          Ore
+        </li>
+        <li>
+          Ore
+        </li>
+      </ul>
+      <ul
+        className="GameBoardWonderStage-effectList"
+      >
+        <li>
+          7 points
+        </li>
+      </ul>
+    </li>
+  </ol>
+</div>
+`;
+
+exports[`renders without crashing 1`] = `
+<div>
+  <div
+    className="GameBoardWonder-tokenContainer"
+  >
+    <div
+      className="GameBoardWonder-token"
+    >
+      3 coins
+    </div>
+    <div
+      className="GameBoardWonder-token"
+    >
+      1 shield
+    </div>
+  </div>
+  <ol
+    className="GameBoardWonder-stageList"
+  >
+    <li
+      className="GameBoardWonderStage"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      style={Object {}}
+    >
+      <ul
+        className="GameBoardWonderStage-cost"
+      >
+        <li>
+          Stone
+        </li>
+        <li>
+          Stone
+        </li>
+      </ul>
+      <ul
+        className="GameBoardWonderStage-effectList"
+      >
+        <li>
+          3 points
+        </li>
+      </ul>
+    </li>
+    <li
+      className="GameBoardWonderStage"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(93, 64, 55, 0.5)",
+        }
+      }
+    >
+      <ul
+        className="GameBoardWonderStage-cost"
+      >
+        <li>
+          Wood
+        </li>
+        <li>
+          Wood
+        </li>
+        <li>
+          Wood
+        </li>
+      </ul>
+      <ul
+        className="GameBoardWonderStage-effectList"
+      >
+        <li>
+          5 points
+        </li>
+      </ul>
+      <div
+        className="GameBoardWonderStage-payment"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8 0-1.85.63-3.55 1.69-4.9L16.9 18.31C15.55 19.37 13.85 20 12 20zm6.31-3.1L7.1 5.69C8.45 4.63 10.15 4 12 4c4.42 0 8 3.58 8 8 0 1.85-.63 3.55-1.69 4.9z"
+          />
+        </svg>
+      </div>
+    </li>
+    <li
+      className="GameBoardWonderStage"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "backgroundColor": "rgba(93, 64, 55, 0.5)",
+        }
+      }
+    >
+      <ul
+        className="GameBoardWonderStage-cost"
+      >
+        <li>
+          Stone
+        </li>
+        <li>
+          Stone
+        </li>
+        <li>
+          Stone
+        </li>
+        <li>
+          Stone
+        </li>
+      </ul>
+      <ul
+        className="GameBoardWonderStage-effectList"
+      >
+        <li>
+          7 points
+        </li>
+      </ul>
+    </li>
+  </ol>
+</div>
+`;

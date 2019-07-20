@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the hand callout 1`] = `
+<div
+  className="Callout"
+>
+  <section>
+    <h2
+      className="Callout-title"
+    >
+      East trading post
+    </h2>
+    <p
+      className="Callout-paragraph"
+    >
+      Type: 
+      Trade
+    </p>
+    <section
+      className="CalloutSection"
+    >
+      <h3
+        className="CalloutSection-heading"
+      >
+        This card awards
+        :
+      </h3>
+      <ul
+        className="CalloutSection-list"
+      >
+        <li>
+          For each raw material (Clay, Ore, Stone, Wood), pay your right neighbor 1 coin instead of 2
+        </li>
+      </ul>
+    </section>
+    <p
+      className="Callout-paragraph"
+    >
+      You can build this structure for free.
+    </p>
+    <section
+      className="CalloutSection"
+    >
+      <h3
+        className="CalloutSection-heading"
+      >
+        If you have this card, you can build for free
+        :
+      </h3>
+      <ul
+        className="CalloutSection-list"
+      >
+        <li>
+          Forum
+        </li>
+      </ul>
+    </section>
+  </section>
+</div>
+`;
+
+exports[`renders the tableau callout 1`] = `
+<div
+  className="Callout"
+>
+  <section>
+    <h2
+      className="Callout-title"
+    >
+      Lumber yard
+    </h2>
+    <p
+      className="Callout-paragraph"
+    >
+      Type: 
+      Raw material
+    </p>
+    <section
+      className="CalloutSection"
+    >
+      <h3
+        className="CalloutSection-heading"
+      >
+        This card awards
+        :
+      </h3>
+      <ul
+        className="CalloutSection-list"
+      >
+        <li>
+          1 Wood
+        </li>
+      </ul>
+    </section>
+  </section>
+</div>
+`;
+
+exports[`renders the wonder callout 1`] = `
+<div
+  className="Callout"
+>
+  <section>
+    <header
+      className="Callout-header"
+    >
+      <h2
+        className="Callout-title"
+      >
+        Pyramids of Giza
+      </h2>
+      <p
+        className="Callout-subtitle"
+      >
+        Stage 
+        1
+      </p>
+    </header>
+    <section
+      className="CalloutSection"
+    >
+      <h3
+        className="CalloutSection-heading"
+      >
+        This stage awards
+        :
+      </h3>
+      <ul
+        className="CalloutSection-list"
+      >
+        <li>
+          3 points
+        </li>
+      </ul>
+    </section>
+    <section
+      className="CalloutSection"
+    >
+      <h3
+        className="CalloutSection-heading"
+      >
+        It costs
+        :
+      </h3>
+      <ul
+        className="CalloutSection-list"
+      >
+        <li>
+          2 Stone
+        </li>
+      </ul>
+    </section>
+    <p
+      className="Callout-paragraph"
+    >
+      You have built this stage.
+    </p>
+  </section>
+</div>
+`;
+
+exports[`renders without crashing 1`] = `
+<div
+  className="Callout"
+>
+  <div
+    className="Tableau"
+    style={Object {}}
+  >
+    <ul
+      className="Tableau-cardList"
+    >
+      <li
+        className="TableauCard"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(141,110,99)",
+            "border": "1px solid rgba(93, 64, 55)",
+          }
+        }
+      >
+        <ul
+          className="TableauCard-effectList"
+        >
+          <li
+            className="TableauCard-effect"
+          >
+            Ore
+          </li>
+        </ul>
+      </li>
+      <li
+        className="TableauCard"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(141,110,99)",
+            "border": "1px solid rgba(93, 64, 55)",
+          }
+        }
+      >
+        <ul
+          className="TableauCard-effectList"
+        >
+          <li
+            className="TableauCard-effect"
+          >
+            Clay / Ore
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <ul
+      className="Tableau-cardList"
+    >
+      <li
+        className="TableauCard"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(33,150,243)",
+            "border": "1px solid rgba(93, 64, 55)",
+          }
+        }
+      >
+        <ul
+          className="TableauCard-effectList"
+        >
+          <li
+            className="TableauCard-effect"
+          >
+            3 points
+          </li>
+        </ul>
+      </li>
+      <li
+        className="TableauCard"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "backgroundColor": "rgb(33,150,243)",
+            "border": "1px solid rgba(93, 64, 55)",
+          }
+        }
+      >
+        <ul
+          className="TableauCard-effectList"
+        >
+          <li
+            className="TableauCard-effect"
+          >
+            2 points
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
